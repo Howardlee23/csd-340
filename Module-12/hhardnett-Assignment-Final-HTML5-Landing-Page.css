@@ -1,0 +1,100 @@
+html{
+    background-color: rgba(247,112,24, .2);
+}
+h2{
+    text-align: center;
+}
+
+#container {
+    font-family: 'Arvo',Verdana,Arial,sans-serif;
+    text-decoration-color: darkred;
+}
+
+header{
+    text-align: center;
+}
+#Hobbies{
+	display: table;
+	width: 100%;
+    margin-bottom: 20px;
+}
+.hobbiesTableRow {
+	display: table-row;
+}
+
+.hobbiesTableCell{
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.hobbiesTableBody {
+	display: table-row-group;
+}
+
+#Experience{
+	display: table;
+	width: 100%;
+    margin-bottom: 50px;
+    
+}
+.expTableRow {
+	display: table-row;
+}
+
+.expTableCell{
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.expTableBody {
+	display: table-row-group;
+}
+
+#Contact{
+	display: table;
+	width: 100%;
+   
+}
+.conTableRow {
+	display: table-row;
+}
+
+.conTableCell{
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.conTableBody {
+	display: table-row-group;
+}
+img{
+    width:500px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+figure {
+    object-fit: cover;
+}
+#image-gallery {
+    width: 30%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding:inherit;
+    object-fit: cover;
+    
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+
+    position: fixed;
+    left: 0;
+}
